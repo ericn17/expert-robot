@@ -6,6 +6,7 @@
   ## Table-of-Contents
   * [Description](#description)
   * [Installation](#installation)
+  
   * [Usage](#usage)
   
   * [License](#license)
@@ -17,10 +18,12 @@
   ## [Description](#table-of-contents)
 This is an e-commerce backend application that uses express, mysql, and sequelize to create and store databases. You can create, update, and delete data in the database. 
   ## [Installation](#table-of-contents)
+  
+  npm init 
+  npm install mysql2
+  npm install sequelize 
+  npm install dotenv
 
-  
- 
-  
   ## [Usage](#table-of-contents)
  
  
@@ -38,7 +41,7 @@ This is an e-commerce backend application that uses express, mysql, and sequeliz
     
   ## [Tests](#table-of-contents)
   
-  
+
   ## [Questions](#table-of-contents)
   Please contact me using the following links:
   
