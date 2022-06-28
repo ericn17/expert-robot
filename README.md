@@ -19,10 +19,13 @@
 This is an e-commerce backend application that uses express, mysql, and sequelize to create and store databases. You can create, update, and delete data in the database. 
   ## [Installation](#table-of-contents)
   
-  npm init 
-  npm install mysql2
-  npm install sequelize 
-  npm install dotenv
+ npm init 
+ 
+ npm install mysql2
+ 
+ npm install sequelize 
+ 
+ npm install dotenv
 
   ## [Usage](#table-of-contents)
  
