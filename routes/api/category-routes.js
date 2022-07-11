@@ -6,7 +6,7 @@ const { Category, Product } = require('../../models');
 router.get('/', (req, res) => {
   // find all categories
   // be sure to include its associated Products
-  Catageory.findAll({
+  Category.findAll({
     include: {
       model: Product,
       attributes: ['id', 'product_name', 'price', 'stock', 'category_id']
@@ -34,7 +34,7 @@ router.get('/:id', (req, res) => {
     },
     include: {
       model: Product,
-      attributes: ['id', 'product_name', 'price', 'stock', 'categroy_id']
+      attributes: ['id', 'product_name', 'price', 'stock', 'category_id']
     }
   })
   .then(dbCatData => {

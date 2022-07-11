@@ -13,6 +13,10 @@ Category.init(
       primaryKey: true,
       autoIncrement: true
     },
+    category_name: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+    }
   },
   {
     sequelize,
