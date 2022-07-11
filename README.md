@@ -7,16 +7,13 @@
   * [Description](#description)
   * [Installation](#installation)
   
-  * [Usage](#usage)
-  
   * [License](#license)
     
   * [Contributing](#contributing)
-  * [Tests](#tests)
   * [Questions](#questions)
   
   ## [Description](#table-of-contents)
-This is an e-commerce backend application that uses express, mysql, and sequelize to create and store databases. You can create, update, and delete data in the database. 
+This is an e-commerce backend application that uses express, mysql, and sequelize to create and store databases. You can create, update, and delete data in the database. I used insomnia to test the database by creating, updating, and deleting categories, products, and tags
   ## [Installation](#table-of-contents)
   
  npm init 
@@ -27,10 +24,7 @@ This is an e-commerce backend application that uses express, mysql, and sequeliz
  
  npm install dotenv
 
-  ## [Usage](#table-of-contents)
- 
- 
-  
+
   ## [License](#table-of-contents)
   The application is covered under the following license:
   
@@ -42,8 +36,6 @@ This is an e-commerce backend application that uses express, mysql, and sequeliz
   
   I will not accept contribution from third-parties at this time. Thank you.
     
-  ## [Tests](#table-of-contents)
-  
 
   ## [Questions](#table-of-contents)
   Please contact me using the following links:
